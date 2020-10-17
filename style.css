@@ -1,0 +1,19 @@
+.submission-form{
+    border-width:5px;  
+    border-style:groove;
+}
+label{
+    margin-top: 5px;
+    margin-left: 50px;
+}
+input, textarea{
+    margin-top: 5px;
+    display:block;
+}
+button{
+    margin-top: 10px;
+    display: block;
+}
+h1{
+    padding-left:700px ;
+}
