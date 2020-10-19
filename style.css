@@ -1,10 +1,17 @@
 .submission-form{
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 700px;
+    max-width: 220px;
     border-width:5px;  
     border-style:groove;
+    background-color: grey;
 }
 label{
+    font-size: large;
+    color: wheat;
     margin-top: 5px;
-    margin-left: 50px;
 }
 input, textarea{
     margin-top: 5px;
@@ -15,5 +22,8 @@ button{
     display: block;
 }
 h1{
-    padding-left:700px ;
+    padding-left:750px ;
+}
+body{
+    background-color: cyan;
 }
