@@ -5,12 +5,12 @@
     margin-left: 700px;
     max-width: 220px;
     border-width:5px;  
-    border-style:groove;
+    border-style:solid;
     background-color: white;
 }
 label{
     font-size: large;
-    color: wheat;
+    color: solid black;
     margin-top: 5px;
 }
 input, textarea{
@@ -25,5 +25,5 @@ h1{
     padding-left:750px ;
 }
 body{
-    background-color: cyan;
+    background-color: gray;
 }
