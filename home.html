@@ -11,12 +11,12 @@
 <body>
     <h1>Registeration</h1><br>
     <form class="submission-form">
-        <label for="name">Name </label> <input type="text" id="name" required>
+        <label for="name">Name </label> <input type="text" id="name" required >
         <label for="favcolor" > Favorite Color </label> <input type="color" id="favcolor"  required>
         <label for="blogurl" > Blog url </label> <input type="url" id="blogurl" required>
         <label for="age"> Age </label> <input type="number" max="70" min="15" id="age"  required>
         <label for="phone"> Phone </label> <input type="tel"  id="phone" required>
-        <label for="password"> Password </label> <input type="password" id="password" required>
+        <label for="password"> Password </label> <input type="password" id="password" required pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$">
         <label for="cnicnumber"> CNIC Number </label> <input type="text" id="cnicnumber" required>
         <button style="color:black; background-color:grey; border: 2px solid grey; margin-left: 50px;" id="btn_submit">Submit</button>
         
